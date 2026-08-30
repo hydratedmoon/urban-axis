@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.product-img').forEach(el=>el.addEventListener('mouseenter',()=>el.style.transform='scale(.985)'));document.querySelectorAll('.product-img').forEach(el=>el.addEventListener('mouseleave',()=>el.style.transform='scale(1)'))});
